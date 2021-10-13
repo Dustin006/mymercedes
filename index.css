@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    }
+
+body {
+  background-image: url("https://www.hdcarwallpapers.com/walls/mercedes_benz_vision_avtr_2020_4k-HD.jpg");
+  background-size: 2100px;
+  height: 150%;
+  width: 100%;
+}
+
+.text-box {
+        color: #fff;
+        position: absolute;
+        bottom: 8%;
+    }
+
+ .text-box p {
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+.text-box h1 {
+        font-size: 190px;
+        line-height: 160px;
+        margin-left: -10px;
+        color: transparent;
+        -webkit-text-stroke: 1px #fff
+    }
+
+.text-box h3 {
+        font-size: 40px; 
+        font-weight: 500;
+    }
+
+.logo { 
+  width: 150px;
+  cursor: pointer;
+  margin-left: 1px;
+  margin-bottom: 250px
+  position: sticky;
+    }
+
+.paragraph {
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 200px;
+}
+
+.button {
+  display: inline-block;
+  border: solid 2px white;
+  background-color: transparent;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+img {
+  width: 200px;
+  cursor: pointer;
+
+  
+  .logo:hover::after {
+    
+  }
